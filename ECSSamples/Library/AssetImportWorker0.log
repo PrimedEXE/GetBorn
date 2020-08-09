@@ -1,0 +1,324 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-tarik
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+
+LICENSE SYSTEM [202089 9:30:10] Next license update check is after 2020-08-09T20:33:53
+
+Built from '2019.4/staging' branch; Version is '2019.4.2f1 (20b4642a3455) revision 2143332'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8001 MB
+[Licensing::Module] Serial number assigned to: "F4-GM7H-E9TC-NAXY-4UCY-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.4.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/tarik/Documents/GitHub/Get Born/ECSSamples
+-logFile
+Library/AssetImportWorker0.log
+-srvPort
+51845
+Successfully changed project path to: C:/Users/tarik/Documents/GitHub/Get Born/ECSSamples
+C:/Users/tarik/Documents/GitHub/Get Born/ECSSamples
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.2f1 (20b4642a3455)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tarik/Documents/GitHub/Get Born/ECSSamples/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   26.21.14.4193
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005410 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.733 seconds
+Registering precompiled user dll's ...
+Registered in 0.107715 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tarik\Documents\GitHub\Get Born\ECSSamples\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.638 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2517.
+Total: 3.551700 ms (FindLiveObjects: 0.572300 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.382900 ms  DeleteObjects: 0.512700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SceneDependencyCache/b7716799586674a530ba5ea35914e585.sceneWithBuildConfiguration
+  artifactKey: Guid(b7716799586674a530ba5ea35914e585) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/b7716799586674a530ba5ea35914e585.sceneWithBuildConfiguration using Guid(b7716799586674a530ba5ea35914e585) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Diagnostics callstack to track who triggered the sub-import:
+0x00007FF65301AF25 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007FF6530502EF (Unity) ResolveArtifactV2
+0x00007FF65304A584 (Unity) MetaDataPathFromGUIDV2
+0x00007FF652F6F3C6 (Unity) AssetDatabase::MetaDataPathFromGUID
+0x00007FF65271C71D (Unity) CollectAllDependencies
+0x00007FF65355ED23 (Unity) AssetDatabaseBindings::GetDependencies
+0x00007FF6534C475F (Unity) AssetDatabase_CUSTOM_GetDependencies
+0x0000024DA311E0A7 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:GetDependencies (string[],bool)
+0x0000024DA311DF1B (Mono JIT Code) UnityEditor.AssetDatabase:GetDependencies (string,bool)
+0x0000024DA311DD73 (Mono JIT Code) UnityEditor.AssetDatabase:GetDependencies (string)
+0x0000024DA3116B9B (Mono JIT Code) [SubSceneImporter.cs:146] Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.Experimental.AssetImporters.AssetImportContext) 
+0x0000024DA3116115 (Mono JIT Code) UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.Experimental.AssetImporters.AssetImportContext)
+0x0000024DA31162F6 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+0x00007FFEF05AD660 (mono-2.0-bdwgc) [mini-runtime.c:2809] mono_jit_runtime_invoke 
+0x00007FFEF05328E2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007FFEF053B93F (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007FF6547430AE (Unity) scripting_method_invoke
+0x00007FF65473CE1D (Unity) ScriptingInvocation::Invoke
+0x00007FF653122150 (Unity) ScriptedImporter::GenerateAssetData
+0x00007FF6530C7B01 (Unity) ImportToObjects
+0x00007FF6530C724E (Unity) ImportAsset
+0x00007FF6530C6EEB (Unity) AssetImportWorker::Import
+0x00007FF653056A9E (Unity) <lambda_73deb17cde14fd552e7106cd780bf5f1>::operator()
+0x00007FF6530DD49B (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF6530DE224 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF6530E097E (Unity) asio::io_service::run
+0x00007FF653050960 (Unity) RunAssetImportWorkerClientV2
+0x00007FF6530509B0 (Unity) RunAssetImporterV2
+0x00007FF652581DEC (Unity) Application::InitializeProject
+0x00007FF652F00954 (Unity) WinMain
+0x00007FF655EEB222 (Unity) __scrt_common_main_seh
+0x00007FFF419E7BD4 (KERNEL32) BaseThreadInitThunk
+0x00007FFF4222CE51 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(b0a4152090be2495380e76763a66a3c1) Importer(-1,00000000000000000000000000000000), Assets/Advanced/Boids/SampleAssets/TestBoidFish 1.prefab from editor
+Resuming
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at C:\Users\tarik\Documents\GitHub\EntityComponentSystemSamples\ECSSamples\Library\PackageCache\com.unity.entities@0.6.0-preview.24\Unity.Scenes.Editor\SubSceneImporter.cs:146)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 48] 
+(Filename: C:/Users/tarik/Documents/GitHub/EntityComponentSystemSamples/ECSSamples/Library/PackageCache/com.unity.entities@0.6.0-preview.24/Unity.Scenes.Editor/SubSceneImporter.cs Line: 146)
+
+Assertion failed on expression: 'state.targetHash == scheduleResult'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at C:\Users\tarik\Documents\GitHub\EntityComponentSystemSamples\ECSSamples\Library\PackageCache\com.unity.entities@0.6.0-preview.24\Unity.Scenes.Editor\SubSceneImporter.cs:146)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 49] 
+(Filename: C:/Users/tarik/Documents/GitHub/EntityComponentSystemSamples/ECSSamples/Library/PackageCache/com.unity.entities@0.6.0-preview.24/Unity.Scenes.Editor/SubSceneImporter.cs Line: 146)
+
+Diagnostics callstack to track who triggered the sub-import:
+0x00007FF65301AF25 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007FF6530502EF (Unity) ResolveArtifactV2
+0x00007FF65304A584 (Unity) MetaDataPathFromGUIDV2
+0x00007FF652F6F3C6 (Unity) AssetDatabase::MetaDataPathFromGUID
+0x00007FF65271C71D (Unity) CollectAllDependencies
+0x00007FF65355ED23 (Unity) AssetDatabaseBindings::GetDependencies
+0x00007FF6534C475F (Unity) AssetDatabase_CUSTOM_GetDependencies
+0x0000024DA311E0A7 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:GetDependencies (string[],bool)
+0x0000024DA311DF1B (Mono JIT Code) UnityEditor.AssetDatabase:GetDependencies (string,bool)
+0x0000024DA311DD73 (Mono JIT Code) UnityEditor.AssetDatabase:GetDependencies (string)
+0x0000024DA3116B9B (Mono JIT Code) [SubSceneImporter.cs:146] Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.Experimental.AssetImporters.AssetImportContext) 
+0x0000024DA3116115 (Mono JIT Code) UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.Experimental.AssetImporters.AssetImportContext)
+0x0000024DA31162F6 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+0x00007FFEF05AD660 (mono-2.0-bdwgc) [mini-runtime.c:2809] mono_jit_runtime_invoke 
+0x00007FFEF05328E2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007FFEF053B93F (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007FF6547430AE (Unity) scripting_method_invoke
+0x00007FF65473CE1D (Unity) ScriptingInvocation::Invoke
+0x00007FF653122150 (Unity) ScriptedImporter::GenerateAssetData
+0x00007FF6530C7B01 (Unity) ImportToObjects
+0x00007FF6530C724E (Unity) ImportAsset
+0x00007FF6530C6EEB (Unity) AssetImportWorker::Import
+0x00007FF653056A9E (Unity) <lambda_73deb17cde14fd552e7106cd780bf5f1>::operator()
+0x00007FF6530DD49B (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF6530DE224 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF6530E097E (Unity) asio::io_service::run
+0x00007FF653050960 (Unity) RunAssetImportWorkerClientV2
+0x00007FF6530509B0 (Unity) RunAssetImporterV2
+0x00007FF652581DEC (Unity) Application::InitializeProject
+0x00007FF652F00954 (Unity) WinMain
+0x00007FF655EEB222 (Unity) __scrt_common_main_seh
+0x00007FFF419E7BD4 (KERNEL32) BaseThreadInitThunk
+0x00007FFF4222CE51 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(009834b439a0e455b843299085c2fbff) Importer(-1,00000000000000000000000000000000), Assets/Advanced/Boids/SampleAssets/TestBoidFish.prefab from editor
+Resuming
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at C:\Users\tarik\Documents\GitHub\EntityComponentSystemSamples\ECSSamples\Library\PackageCache\com.unity.entities@0.6.0-preview.24\Unity.Scenes.Editor\SubSceneImporter.cs:146)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 48] 
+(Filename: C:/Users/tarik/Documents/GitHub/EntityComponentSystemSamples/ECSSamples/Library/PackageCache/com.unity.entities@0.6.0-preview.24/Unity.Scenes.Editor/SubSceneImporter.cs Line: 146)
+
+Assertion failed on expression: 'state.targetHash == scheduleResult'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at C:\Users\tarik\Documents\GitHub\EntityComponentSystemSamples\ECSSamples\Library\PackageCache\com.unity.entities@0.6.0-preview.24\Unity.Scenes.Editor\SubSceneImporter.cs:146)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 49] 
+(Filename: C:/Users/tarik/Documents/GitHub/EntityComponentSystemSamples/ECSSamples/Library/PackageCache/com.unity.entities@0.6.0-preview.24/Unity.Scenes.Editor/SubSceneImporter.cs Line: 146)
+
+Opening scene 'Assets/Advanced/Boids/Scenes/Simulation.unity additively'
+Loaded scene 'Assets/Advanced/Boids/Scenes/Simulation.unity'
+	Deserialize:            3.818 ms
+	Integration:            14.323 ms
+	Integration of assets:  1.270 ms
+	Thread Wait Time:       15.870 ms
+	Total Operation Time:   35.280 ms
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0 
+(Filename:  Line: 0)
+
+Done importing asset: 'Assets/SceneDependencyCache/b7716799586674a530ba5ea35914e585.sceneWithBuildConfiguration' (target hash: '569af746d39c521fcddcdc2630689ad3') in 4.114586 seconds
+  Import took 4.122851 seconds.
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
