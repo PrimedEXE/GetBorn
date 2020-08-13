@@ -1,0 +1,114 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-tarik" (connect: 0.00s, validation: 0.00s, handshake: 1.19s)
+Entitlement-based licensing initiated
+[LicensingClient] Licenses updated successfully
+
+LICENSE SYSTEM [2020811 13:19:30] Next license update check is after 2020-08-11T01:47:11
+
+
+LICENSE SYSTEM [2020811 13:19:30] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+Built from '2020.1/staging' branch; Version is '2020.1.1f1 (2285c3239188) revision 2262467'; Using compiler version '192227905'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8001 MB
+[Licensing::Module] Serial number assigned to: "F4-GM7H-E9TC-NAXY-4UCY-XXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.1.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/tarik/Desktop/Get Born/GetBorn/ECSSamples2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59314
+Successfully changed project path to: C:/Users/tarik/Desktop/Get Born/GetBorn/ECSSamples2
+C:/Users/tarik/Desktop/Get Born/GetBorn/ECSSamples2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 78.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.1.1f1 (2285c3239188)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.1.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tarik/Desktop/Get Born/GetBorn/ECSSamples2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   26.21.14.4193
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.1.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.1.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.1.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.211822 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 98.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.327 seconds
+Registering precompiled user dll's ...
+Registered in 0.210861 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tarik\Desktop\Get Born\GetBorn\ECSSamples2\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 61.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.781 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 5.759100 ms (FindLiveObjects: 0.828100 ms CreateObjectMapping: 0.131600 ms MarkObjects: 4.687300 ms  DeleteObjects: 0.107600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SceneDependencyCache/5143936200840c325be4840e09af4660.sceneWithBuildConfiguration
+  artifactKey: Guid(5143936200840c325be4840e09af4660) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/5143936200840c325be4840e09af4660.sceneWithBuildConfiguration using Guid(5143936200840c325be4840e09af4660) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Advanced/Boids/Scenes/Environment.unity additively'
+Loaded scene 'Assets/Advanced/Boids/Scenes/Environment.unity'
+	Deserialize:            17.929 ms
+	Integration:            19.195 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       20.902 ms
+	Total Operation Time:   58.032 ms
+ -> (target hash: 'e032ff999005de3a1428253c6ee22cb4') in 2.257576 seconds
+  Import took 2.268192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/SceneDependencyCache/b7716799586674a530ba5ea35914e585.sceneWithBuildConfiguration
+  artifactKey: Guid(b7716799586674a530ba5ea35914e585) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/b7716799586674a530ba5ea35914e585.sceneWithBuildConfiguration using Guid(b7716799586674a530ba5ea35914e585) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Advanced/Boids/Scenes/Simulation.unity additively'
+Loaded scene 'Assets/Advanced/Boids/Scenes/Simulation.unity'
+	Deserialize:            4.508 ms
+	Integration:            31.305 ms
+	Integration of assets:  0.937 ms
+	Thread Wait Time:       23.611 ms
+	Total Operation Time:   60.361 ms
+ -> (target hash: 'c61c4d1d708d2538d21cdd71b6b1d8f1') in 1.053653 seconds
+  Import took 1.070724 seconds .
+
